@@ -175,7 +175,7 @@ where c2 = value2 and c3 not in (
 )
 ```
 
-2. 集合的比较`some`，`all` (`any`同义于`some`，`in`等同于`exists`)
+2. 集合的比较`some`，`all` (`any`同义于`some`)
 - `=some` 等价于`in`
 - `<>all` 等价于`not in`
 

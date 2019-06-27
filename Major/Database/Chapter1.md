@@ -135,6 +135,6 @@ To hide the complexity from users through several levels of abstraction and simp
     ==Concurrency-control manager's duty==
     - The persistence requirement is called **durability**.
     ==Recovery manager's duty==
-- A **transaction** is a collection of operations that performs a single logical function in a database application.
+- A **transaction** is a collection of operations that performs ==a single logical function== in a database application.
 - The **transaction manager** consists of the ==concurrency-control manager== and the ==recovery manager==.
 - **Failure recovery:** detect system failures and restore the database to the state that existed prior to the occurrence of the failure.
